@@ -1,0 +1,391 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Introduction - Computational Thinking and Programming (2021/2022)</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css">
+		<link rel="stylesheet" href="css/ctc.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="css/addon.css"></link>
+		<link rel="stylesheet" href="css/font-awesome.min.css"></link>
+		<link rel="stylesheet" href="css/academicons.min.css"></link>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section id="title" class="title_slide" role="doc-cover">
+					<h1>Introduction</h1>
+					<div class="author">
+						<p><a href="https://www.unibo.it/sitoweb/silvio.peroni/en">Silvio Peroni</a></p>
+						<p class="contact">
+							<i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:silvio.peroni@unibo.it">silvio.peroni@unibo.it</a>
+							<i class="ai ai-orcid" aria-hidden="true"></i> <a href="https://orcid.org/0000-0003-0530-4305">0000-0003-0530-4305</a>
+							<i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/essepuntato">@essepuntato</a>
+						</p>
+						<p class="sst mtl"><a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/467045">Computational Thinking and Programming (A.Y. 2022/2023)</a></p>
+						<p class="ssst"><a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge">Second Cycle Degree in Digital Humanities and Digital Knowledge</a></p>
+						<p class="ssst"><a href="http://www.unibo.it/en">Alma Mater Studiorum - Università di Bologna</a></p>
+						<p class="license"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></p>
+					</div>
+				</section>
+				<section>
+					<h2>Your take</h2>
+					<p><a href="https://jamboard.google.com/d/19ifAsZZA5qP-olIPpk7U3CwYtD1yLXqE2yogPvuhlVU/edit?usp=sharing">Describe</a> in one word what you think this course is about</p>
+				</section>
+				<section>
+					<h2>About the course</h2>
+					<p><strong>Goal:</strong> how to use a language to communicate with and instruct an information-processing agent</p>
+					<p class="fragment"><strong>Computer Science notions:</strong> algorithms, data structures, and algorithmic techniques</p>
+					<p class="fragment"><strong>Language for communication:</strong> Python (yes, it is a programming language)</p>
+				</section>
+				<section>
+					<h2>Rumors</h2>
+					<p>Some whispers of despair:</p>
+					<p class="fragment st"><q>algorithms, computations, programming, etc., are something which I cannot handle – indeed, I did not like mathematics at the high school</q></p>
+					<p class="fragment st"><q>I am not able to abstract a situation by using formal tools since I am not a formal person</q></p>
+					<p class="fragment st"><q>I cannot learn a programming language</q></p>
+					<p class="fragment">These are just <strong>prejudices</strong></p>
+				</section>
+				<section>
+					<h2>Yes, we can</h2>
+					<p class="st">Several of the things the book introduces are something that all of us <strong>already learned and digested</strong> during our life - it is only a matter of identifying them again to reuse them consciously</p>
+					<p class="fragment st">Intelligence is a muscle, it <strong>can be developed</strong> - we can learn anything, including Computer Science topics, despite what others say<br /><small>More info in: <cite>Dweck, C. (2006). Mindset: The New Psychology of Success. Random USA. ISBN: 978-0345472328</cite></small></p>
+					<p class="fragment st">A programming language is a language, such as Italian and English - we need <strong>time and practice</strong> to learn it properly</p>
+					<p class="fragment">Suggested mindset: be an <a href="http://catb.org/jargon/html/H/hacker.html">hacker</a><br/><small><q>one who enjoys the intellectual challenge of creatively overcoming or circumventing limitations</q></small></p>
+				</section>
+				<section>
+					<h2><q>We don't trust you!</q></h2>
+					<p>OK, then see what it (has) happened</p>
+					<div>
+						<div class="fragment fl wm">
+							<img src="img/meta.png" />
+							<p class="tc">Bachelor:<br />History</p>
+						</div>
+						<div class="fragment fl wm">
+							<img src="img/memo.png" />
+							<p class="tc">Bachelor:<br />Humanities</p>
+						</div>
+						<div class="fragment fl wm">
+							<img src="img/dh.png" />
+							<p class="tc">Bachelor:<br />Information Science for Management</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h2>Did it happen?</h2>
+					<p>Did some of you have experienced any of the following issues in the past? - Raise your hands if you were obliged:</p>
+					<ul>
+						<li class="fragment"><p>to buy one or more books</p></li>
+						<li class="fragment"><p>to attend mandatorily a large part of the course for attending the final exam</p></li> 
+						<li class="fragment"><p>not to participate to an exam session for some informal rule imposed by the professor</p></li>
+						<li class="fragment"><p>not to receive the maximum score if you attended the exam without attending the lectures</p></li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Rules</h2>
+					<p>Let's see the rules of this course</p>
+					<ul>
+						<li class="fragment"><p>Two free text books are provided, and additional material can be found on the <a href="https://github.com/comp-think/2022-2023/">GitHub repository</a> of the course</p></li>
+						<li class="fragment"><p>If you cannot attend, do not attend (even if attendance is recommended: you can ask questions)</p></li> 
+						<li class="fragment"><p>At least six exam sessions per academic year</p></li> 
+						<li class="fragment"><p>Max score one can obtain is 36 (out of 30)</p></li> 
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Books and material</h2>
+					<p><a href="https://comp-think.github.io">Computational Thinking and Programming book</a> (official book of the course - it includes more than 100 exercises with keys!) + accompanying book <a href="https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python">How To Code in Python</a></p>
+					<p>All the material (including slides) is available in the GitHub repository of the course at <a href="https://github.com/comp-think/2022-2023/">https://github.com/comp-think/2022-2023/</a></p>
+					<p>Have you found a mistake in the official book? Please write me an email at <a href="mailto:silvio.peroni@unibo.it">silvio.peroni@unibo.it</a>, or comment it directly on Google Docs</p>
+				</section>
+				
+				<section>
+					<h2>Communications</h2>
+					<p>We use a <a href="https://slack.com">Slack</a> discussion group for communicating with each other</p>
+					<p>Invitation link to join the workspace: <a href="https://join.slack.com/t/essepuntato-uni/shared_invite/zt-1hzlvx10w-q~hUMWq96S3yFTpMvIj6_w">https://join.slack.com/t/essepuntato-uni/shared_invite/zt-1hzlvx10w-q~hUMWq96S3yFTpMvIj6_w</a></p>
+					<p>Once you entered in the workspace following the previous link, you will be added to the private channel dedicated to the course (<q>comp-think-22-23</q>) by me</p>
+					<p>Please, do a Slack account as soon as possible (e.g. during the break) since I will close the invitation link in at the end of this week - and we will start to use it since Friday</p>
+				</section>
+
+				<section>
+					<h2>Twitter</h2>
+					<p>The course has its own Twitter account: <a href="https://twitter.com/UniboCompThink">@UniboCompThink</a></p>
+                    <p>Twitter will be used to highlight interesting articles and initiatives about computational thinking, and to share the various topics addressed during the course so as to provide the materials to anyone can be interested</p>
+				</section>
+				
+				<section>
+					<h2>Interacting</h2>
+					<p>We will use the <a href="https://github.com/comp-think/2022-2023/">GitHub repository of the course</a> for a series of activities, such as exercises and raising issues</p>
+					<p>Thus, please, create a new account on GitHub: <a href="https://github.com/join">https://github.com/join</a></p>
+					<p>Once logged into GitHub, go to the <a href="https://github.com/comp-think/2022-2023/issues">issue page</a> of the course repository, and then feel free to add and respond to issues there</p>
+					<p>A very introductory guide to GitHub can be find <a href="https://docs.google.com/presentation/d/120U_qFLpHMWrC7BQE55pNZbU8lPqa_NDUoNFEpvF67Y/edit#slide=id.p">online</a></p>
+				</section>
+				
+				<section>
+					<h2>Course organisation</h2>
+					<p class="fragment">Theoretical part (30 hours), where I will introduce all the notions related to the course - no computer needed: 15 lectures of two hours each (today included)</p>
+					<p class="fragment">Practical sessions, where <a href="https://www.unibo.it/sitoweb/arcangelo.massari">Arcangelo Massari</a> will be available for helping you in the issues that may arise during the course (e.g. solving exercises) - use Slack for coordination (e.g. topic to address and when)</p>
+					<p class="fragment">Laboratorial part (12 hours), where Arcangelo (again) will have some practical lectures on programming languages - computer needed here</p>
+				</section>
+
+				<section>
+					<h2>Theory, practice, laboratory</h2>
+					<p class="fragment">Theory: it introduces the tools for doing something - e.g. vocabulary and syntax of a language</p>
+					<p class="fragment">Practice: it addresses assignments to enable people to learn and understand the correct way to use such tools - e.g. using the language vocabulary and syntax to write sentences to express a particular idea or situation</p>
+					<p class="fragment">Laboratory: a workshop run by someone that enables one to use the tools learned to understand advanced concepts and to build wonderful (and complex) artifacts - e.g. writing a novel</p>
+				</section>
+				
+				<section>
+					<h2>Course calendar</h2>
+					<table class="ssst">
+						<tr>
+							<th colspan="2">October</th>
+							<th colspan="2">November</th>
+							<th colspan="2">December</th>
+						</tr>
+						<tr>
+							<td><small>12/10/22 09:30-11:30</small></td><td>Introduction to the course</td>
+							<td><small>07/11/22 09:30-11:30</small></td><td>Brute-force algorithms</td>
+							<td><small>05/12/22 09:30-11:30</small></td><td><span class="cr">Laboratory</span></td>
+						</tr>
+						<tr>
+							<td><small>14/10/22 12:30-14:30</small></td><td>Introduction to Computational Thinking</td>
+							<td><small>09/11/22 09:30-11:30</small></td><td><span class="cr">Laboratory</span></td>
+							<td><small>12/12/22 09:30-11:30</small></td><td>Organising information: trees</td>
+						</tr>
+						<tr>
+							<td><small>17/10/22 09:30-11:30</small></td><td>Algorithms</td>
+							<td><small>14/11/22 09:30-11:30</small></td><td>Organising information: unordered structures</td>
+							<td><small>14/12/22 09:30-11:30</small></td><td>Backtracking algorithms</td>
+						</tr>
+						<tr>
+							<td><small>19/10/22 09:30-11:30</small></td><td><span class="cr">Laboratory</span></td>
+							<td><small>16/11/22 09:30-11:30</small></td><td><span class="cr">Laboratory</span></td>
+							<td><small>19/12/22 09:30-11:30</small></td><td>Organising information: graphs</td>
+						</tr>
+						<tr>
+							<td><small>21/10/22 12:30-14:30</small></td><td>Computability</td>
+							<td><small>21/11/22 09:30-11:30</small></td><td>Recursion</td>
+							<td><small>21/12/22 09:30-11:30</small></td><td>Greedy algorithms</td>
+						</tr>
+						<tr>
+							<td><small>24/10/22 09:30-11:30</small></td><td>Programming languages</td>
+							<td><small>23/11/22 09:30-11:30</small></td><td>Divide and conquer algorithms</td>
+							<td></td><td></td>
+						</tr>
+						<tr>
+							<td><small>26/10/22 09:30-11:30</small></td><td><span class="cr">Laboratory</span></td>
+							<td><small>28/11/22 09:30-11:30</small></td><td><span class="cr">Laboratory</span></td>
+							<td></td><td></td>
+						</tr>
+						<tr>
+							<td><small>28/10/22 12:30-14:30</small></td><td>Organising information: ordered structures</td>
+							<td><small>30/11/22 09:30-11:30</small></td><td>Dynamic programming algorithms</td>
+							<td></td><td></td>
+						</tr>
+					</table>
+				</section>
+				
+				<section>
+					<h2>Exam</h2>
+					<ol>
+						<li class="fragment"><p>A non-mandatory workshop (immediately after the last lecture, i.e. 21 December, in the afternoon), where the students are asked to organise themself in groups of 3-4 people (max. score: 4)</p></li>
+						<li class="fragment">
+							<p>A final written examination (max. score: 32) - when:</p>
+							<ul>
+								<li>11 January 2023</li>
+								<li>16 March 2023</li>
+								<li>25 May 2023</li>
+								<li>22 June 2023</li>
+								<li>20 July 2023</li>
+								<li>7 September 2022</li>
+							</ul>
+						</li>
+					</ol>
+					<p class="fragment">Total max. score: 36 (32 without the workshop) out of 30</p>
+				</section>
+
+				<section>
+					<h2>Registering final grade</h2>
+					<p>As you know, this course is just a module of an Integrated Course (I. C.)</p>
+					<ul>
+						<li>
+							<p>Computational Management of Data (Integrated Course)</p>
+							<ul>
+								<li><p>Module 1: <span class="cr">Computational Thinking and Programming</span> (this course!)</p></li>
+								<li><p>Module 2: Data Science (second semester course, taught by me)</p></li>
+							</ul>
+						</li>
+					</ul>
+					<p>You can register only the final grade of the Integrated Course, which is computed as the average of the final scores of the two modules (max. 30L each module)</p>
+				</section>
+				
+				<section>
+					<h2>Evaluation of the course</h2>
+					<p>Usually, during one of the last lectures of the course, you will be asked to fill-up a questionnaire on the organisation of the course and related stuff - it is anonymous, of course</p>
+					<p>Please, do it carefully and honestly, since it is one of the most important inputs I will have to understand what can be improved in the next year course</p>
+					<p>The fact that the course of this year is slightly different from the one held during the previous year one is mainly due to the comments I have received through these questionnaires</p>
+				</section>
+
+				<section>
+					<h2>About learning a new language</h2>
+					<p><img src="img/japanese.png" /></p>
+					<p class="fragment">Do you think that attending only to all the classes of a 6 credit course (i.e. 30 hours) on a foreign language is enough to master its basics?</p>
+					<p class="fragment">Learning a programming language is like learning a new language: you need to practice it (a lot) to master it properly</p>
+				</section>
+
+				<section>
+					<h2>Final recommendations (1)</h2>
+					<p class="sst tr wmm fr">Umberto Eco (1980). The Name of the Rose. <a href="http://www.goodwin.ee/ekafoto/tekstid/Eco%20Umberto%20-%20The%20Name%20Of%20The%20Rose.pdf">Available online</a></p>
+					<blockquote class="wmm fl st"><p>In the face of some inexplicable facts you must try to imagine many general laws, whose connection with your facts escapes you. Then suddenly [...] you perceive a line of reasoning that seems more convincing than the others. You try applying it to all similar cases [...] and you discover that your intuition was right.</p></blockquote>
+					<p class="fragment fr wmm">There is no single solution to a given problem, and the best one can be found only trying (and making mistakes, and trying again and again) more than one approach</p>
+				</section>
+				
+				<section>
+					<h2>Final recommendations (2)</h2>
+					<p class="sst tr wm fr">Stephen Toulmin (1958). The Uses of Arguments. <a href="http://johnnywalters.weebly.com/uploads/1/3/3/5/13358288/toulmin-the-uses-of-argument_1.pdf">Available online</a></p>
+					<blockquote class="wl fl st"><p>The purpose of these studies is to raise problems, not to solve them</p></blockquote>
+					<p class="fragment">Please do ask questions</p>
+					<p class="fragment">There are no stupid questions</p>
+					<p class="fragment">My answers can be odd though, sometime</p>
+					<p class="fragment">Thus, in order to avoid such odd answers, I could ask you to be patient and wait for the next lecture, so as to provide you with the best possible answer ever</p>
+				</section>
+
+				<section>
+					<p>Now a break<span class="fragment">, and then...</span></p>
+				</section>
+
+				<section>
+					<h2>About <q>thinking</q></h2>
+					<p>Computational <span class="fragment highlight-red">Thinking</span> and Programming</p>
+					<p class="fragment">Understanding <span class="cr">how</span> your thinking mechanisms work and training you in been flexible and reactive while thinking can be achieved only by <span class="cr">thinking about something</span></p>
+					<p class="fragment">Thus, let us do a couple of experiments!</p>
+				</section>
+
+				<section>
+					<h2>Experiment 1</h2>
+					<p class="fr wm"><img src="img/three-glasses.png" /></p>
+					<p>Material:</p>
+					<ul class="fragment">
+						<li><p>3 glasses</p></li>
+						<li><p>4 knives</p></li>
+						<li><p>1 book</p></li>
+					</ul>
+					<p class="fragment">Setting:</p>
+					<ul>
+						<li class="fragment"><p>the glasses as vertexes of a triangle of equal sides</p></li>
+						<li class="fragment"><p>the base of each glass is separated from the other by the lenght of a knife</p></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Goal of experiment 1</h2>
+					<p>Using the knives, creating a platform on top of the glasses</p>
+					<p>The knives used must not touch the ground</p>
+					<p>The platform must support the weight of the book</p>
+				</section>
+
+				<section>
+					<h2>What we learned from experiment 1</h2>
+					<p class="fragment">Approaching the solution may be difficult if there is no pattern provided by experience</p>
+					<p class="fragment">It is important to analyse the situation to see if all the material available is useful, leaving out everything does not really help</p>
+					<p class="fragment">Trial-and-error prodedure may be effective</p>
+				</section>
+
+				<section>
+					<h2>Experiment 2</h2>
+					<p class="fr wm"><img src="img/four-glasses.png" /></p>
+					<p>Material:</p>
+					<ul class="fragment">
+						<li><p>4 glasses</p></li>
+						<li><p>4 knives</p></li>
+						<li><p>1 book</p></li>
+					</ul>
+					<p class="fragment">Setting:</p>
+					<ul class="fragment">
+						<li><p>the glasses at a corner of a square</p></li>
+						<li><p>the base of each glass is separated from the other by the lenght of a knife</p></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Goal of experiment 2</h2>
+					<p>Using the knives, creating a platform on top of the glasses</p>
+					<p>The knives used must not touch the ground</p>
+					<p>The platform must support the weight of the book</p>
+				</section>
+
+				<section>
+					<h2>What we learned from experiment 2</h2>
+					<p class="fragment">Recognising essential similarity of a problem to one already solved makes the problem easier to solve</p>
+					<p class="fragment">Experience is much more valuable if some general principle is derived from it</p>
+					<p class="fragment">Use of patterns provided by experience is the most rapid way of solving problems</p>
+				</section>
+
+				<section>
+					<h2>The general principle</h2>
+					<p>Can you devise a general principle that can be use to solve both the situations introduced in the previous experiment?</p>
+				</section>
+
+				<section>
+					<h2>Closing</h2>
+					<p>These kinds of thinking exercises you performed today will characterise the entire course</p>
+					<p>Concepts such as <span class="cr">abstraction</span>, <span class="cr">trial-and-error</span> learning, <span class="cr">prior experience</span>, deriving <span class="cr">general principles</span>, <span class="cr">practice</span>, are key factors when learning a new language (including a new programming language)</p> 
+					<p>Note: the two thinking experiments with glasses and knives introduced in this opening lecture come from the book <cite>The 5-Day Course in Thinking</cite> by <a href="https://en.wikipedia.org/wiki/Edward_de_Bono">Edward de Bono</a>.</p>
+				</section>
+								
+				<section class="title_slide">
+					<h2>
+						END
+						<span class="subtitle">Introduction</span>
+					</h2>
+					<div class="author">
+						<p><a href="https://www.unibo.it/sitoweb/silvio.peroni/en">Silvio Peroni</a></p>
+						<p class="contact">
+							<i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:silvio.peroni@unibo.it">silvio.peroni@unibo.it</a>
+							<i class="ai ai-orcid" aria-hidden="true"></i> <a href="https://orcid.org/0000-0003-0530-4305">0000-0003-0530-4305</a>
+							<i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/essepuntato">@essepuntato</a>
+						</p>
+						<p class="sst mtl"><a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/467045">Computational Thinking and Programming (A.Y. 2022/2023)</a></p>
+						<p class="ssst"><a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge">Second Cycle Degree in Digital Humanities and Digital Knowledge</a></p>
+						<p class="ssst"><a href="http://www.unibo.it/en">Alma Mater Studiorum - Università di Bologna</a></p>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

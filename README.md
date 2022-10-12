@@ -25,6 +25,7 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
 - _lab_ = laboratory session
 
 1. [12/10/22, *the*] Introduction to the course
+   - slides: [HTML](https://comp-think.github.io/2022-2023/slides/00%20-%20Course%20introduction.html)
    <hr />
 2. [14/10/22, *the*] Introduction to Computational Thinking
    - book chapter: [PDF](https://comp-think.github.io/book/01.pdf), [Google Docs](https://comp-think.github.io/book/01)
@@ -136,10 +137,10 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
   <tr><td>14/11/22</td><td>09:30-11:30</td><td>Organising information: unordered structures</td></tr>
   <tr><td>16/11/22</td><td>09:30-11:30</td><td>4th Lesson</td></tr>
   <tr><td>21/11/22</td><td>09:30-11:30</td><td>Recursion</td></tr>
-  <tr><td>28/11/22</td><td>09:30-11:30</td><td>5th Lesson</td></tr>
   <tr><td>23/11/22</td><td>09:30-11:30</td><td>Divide and conquer algorithms</td></tr>
-  <tr><td>05/12/22</td><td>09:30-11:30</td><td>6th Lesson</td></tr>
+  <tr><td>28/11/22</td><td>09:30-11:30</td><td>5th Lesson</td></tr>
   <tr><td>30/11/22</td><td>09:30-11:30</td><td>Dynamic programming algorithms</td></tr>
+  <tr><td>05/12/22</td><td>09:30-11:30</td><td>6th Lesson</td></tr>
   <tr><td>12/12/22</td><td>09:30-11:30</td><td>Organising information: trees</td></tr>
   <tr><td>14/12/22</td><td>09:30-11:30</td><td>Backtracking algorithms</td></tr>
   <tr><td>19/12/22</td><td>09:30-11:30</td><td>Organising information: graphs</td></tr>
