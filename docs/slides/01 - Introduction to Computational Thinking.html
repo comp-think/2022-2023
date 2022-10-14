@@ -1,0 +1,369 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Introduction to Computational Thinking</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css">
+		<link rel="stylesheet" href="css/ctc.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="css/addon.css"></link>
+		<link rel="stylesheet" href="css/font-awesome.min.css"></link>
+		<link rel="stylesheet" href="css/academicons.min.css"></link>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section id="title" class="title_slide" role="doc-cover">
+					<h1 class="bbbbt">Introduction to Computational Thinking</h1>
+					<div class="author">
+						<p><a href="https://www.unibo.it/sitoweb/silvio.peroni/en">Silvio Peroni</a></p>
+						<p class="contact">
+							<i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:silvio.peroni@unibo.it">silvio.peroni@unibo.it</a>
+							<i class="ai ai-orcid" aria-hidden="true"></i> <a href="https://orcid.org/0000-0003-0530-4305">0000-0003-0530-4305</a>
+							<i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/essepuntato">@essepuntato</a>
+						</p>
+						<p class="sst mtl"><a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/467045">Computational Thinking and Programming (A.Y. 2022/2023)</a></p>
+						<p class="ssst"><a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge">Second Cycle Degree in Digital Humanities and Digital Knowledge</a></p>
+						<p class="ssst"><a href="http://www.unibo.it/en">Alma Mater Studiorum - Università di Bologna</a></p>
+						<p class="license"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></p>
+					</div>
+				</section>
+
+				<section>
+					<h2>Communication 1</h2>
+					<p>Books: <a href="https://comp-think.github.io">Computational Thinking and Programming book</a> (official book of the course - it includes more than 100 exercises with keys!) + accompanying book <a href="https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python">How To Code in Python</a></p>
+					<p>Other material: available in the GitHub repository of the course at <a href="https://github.com/comp-think/2022-2023/">https://github.com/comp-think/2022-2023/</a></p>
+				</section>
+
+				<section>
+					<h2>Communication 2</h2>
+					<p>As of yesterday, 16 people have subscribed to the Slack workspace</p>
+					<p><strong class="fragment highlight-red">Please subscribe to the Slack workspace as soon as possible</strong></p>
+					<p>Invitation link to join the group: <br /><a href="https://join.slack.com/t/essepuntato-uni/shared_invite/zt-1hzlvx10w-q~hUMWq96S3yFTpMvIj6_w">https://join.slack.com/t/essepuntato-uni/shared_invite/zt-1hzlvx10w-q~hUMWq96S3yFTpMvIj6_w</a></p>
+					<p>Once you entered in the workspace following the previous link, you will be added to the private channel dedicated to the course (<q>comp-think-22-23</q>) by me</p>
+				</section>
+
+				<section>
+					<h2>Communication 3</h2>
+					<p>We will use the <a href="https://github.com/comp-think/2022-2023/">GitHub repository of the course</a> for a series of activities, such as exercises and raising issues</p>
+					<p>Thus, please, create a new account on GitHub: <a href="https://github.com/join">https://github.com/join</a></p>
+				</section>
+				
+				<section>
+					<h2>Communication 4</h2>
+					<p>The video of the previous lecture and those of today's lecture and the following one will be made available on the Virtuale space of the course</p>
+					<p><a href="https://virtuale.unibo.it/course/view.php?id=41430">https://virtuale.unibo.it/course/view.php?id=41430</a></p>
+				</section>
+
+				<section>
+					<h2>Communication 5</h2>
+					<p>As you should already know, a non-mandatory workshop will be held immediately after the last lecture, where the students are asked to organise themself in groups of 3-4 people (max. score: 4)</p>
+					<p>Max. score you can obtain from it: 4 points</p>
+					<p>The date is:</p> 
+					<p>21 December 2021, 14:00-17:00 (in Aula Affreschi)</p>
+				</section>
+
+				<section>
+					<h2>Any question about the previous lecture?</h2>
+				</section>
+				
+				<section>
+					<h2>Historic hero: Noam Chomsky</h2>
+					<img class="wmm fr mlm" src="img/chomsky.jpg" />
+					<p>Founders of the cognitive science field</p>
+					<p>Father of the modern linguistics</p>
+					<p class="fragment">Provided a classification for <em>formal grammars</em></p>
+					<p class="fragment">A <em>formal grammar</em> is a mathematical tool for defining a language (e.g. English) according to a finite set of production rules, that allows one to construct any syntactic valid sentence of such language</p>
+				</section>
+				
+				<section>
+					<h2>Types of formal grammars</h2>
+					<ul>
+						<li><p>regular grammars (the least expressive)</p></li>
+						<li><p>context-free grammars</p></li>
+						<li><p>context-sensitive grammars</p></li>
+						<li><p>recursively enumerable grammars (the most expressive)</p></li>
+					</ul>
+					<p>All specify constraints on the way one can use <em>terminal</em> and <em>non-terminal</em> symbols</p>
+					<ul>
+						<li><p>terminals are elementary symbols of the language (e.g. words), e.g. <code>"write"</code></p></li>
+						<li><p>non-terminals (e.g. <code>&lt;sentence></code>) can be replaced by a combination of terminal and non-terminal symbols</p></li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Example of formal grammar</h2>
+					<p>A simple grammar defined using the Backus-Naur form</p>
+					<pre><code>&lt;sentence> ::= &lt;pronoun> "write"
+&lt;pronoun> ::= "I"
+&lt;pronoun> ::= "you"</code></pre>
+					<div class="fragment">
+						<p>Is the sentence <q>I write</q> part of the language defined by the aforementioned grammar?</p>
+						<pre class="fragment"><code>&lt;sentence> ⇒
+&lt;pronoun> "write" ⇒
+"I" "write"</code></pre>
+						<p class="fragment">The sentence <q>I write</q> is part of the language</p>
+					</div>
+				</section>
+				
+				<section>
+					<h2>Meaning: part 1</h2>
+					<p><span class="fragment highlight-red">Computational</span> Thinking and Programming</p>
+					<p class="fragment">Definition of <em>computational</em> (Oxford Dictionary): using or relating to <span class="fragment highlight-red">computers</span></p> 
+					<p class="fragment">A <em>computer</em> (today): electronic device</p>
+					<p class="fragment">A <em>computer</em> (before advent of electronic computers): a person who performs mathematical calculations</p>
+				</section>
+				
+				<section>
+					<h2>Human computers</h2>
+					<p>Groups of people who have to undertake long calculations for specific experiments or measurements</p>
+					<p>In astronomy: used for calculating astronomical coordinates of non-terrestrial things – such as the calculation of passages of Halley's Comet by Alexis Claude Clairaut and colleagues</p>
+					<p>In commerce: Napoleon imposed the creation of mathematical tables to convert quantities from the old imperial system of measurements to the new metric system</p>
+				</section>
+
+				<section>
+					<h2>Towards electronic computers</h2>
+					<p>In 1822, Charles Babbage developed the Difference Engine and then the Analytical Engine - the latter one was programmable, making it the very first mechanical general-purpose computer in history</p>
+					<div class="fragment tc fl mrs">
+						<img class="hm" src="img/difference_engine.png" />
+						<p class="tc mtn">Babbage's Difference Engine</p>
+					</div>
+					<div class="fragment tc fr mls">
+						<img class="hm" src="img/analytical_engine.jpg" />
+						<p class="tc mtn">Babbage's Analytical Engine</p>
+					</div>
+				</section>
+
+				<section>
+					<section data-transition="slide-in fade-out">
+						<h2><q>Programmable</q> what?</h2>
+						<div class="fragment tc fl mrs">
+							<img class="hm" src="img/calc-01.png" />
+							<p class="tc mtn">Babbage's Difference Engine</p>
+							<p class="sst tc mtn">No additional operations permitted</p>
+						</div>
+						<div class="fragment tc fr mls">
+							<img class="hm" src="img/calc-02.png" />
+							<p class="tc mtn">Babbage's Analytical Engine</p>
+							<p class="sst tc mtn">Space for additional operations</p>
+						</div>
+					</section>
+					<section data-transition="fade-in">
+						<h2><q>Programmable</q> what?</h2>
+						<div class="tc fl mrs">
+							<img class="hm" src="img/calc-01.png" />
+							<p class="tc mtn">Babbage's Difference Engine</p>
+							<p class="sst tc mtn">No additional operations permitted</p>
+						</div>
+						<div class="tc fr mls">
+							<img class="hm" src="img/calc-03.png" />
+							<p class="tc mtn">Babbage's Analytical Engine</p>
+							<p class="sst tc mtn">User defines new operations</p>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<h2>Electronic computers</h2>
+					<div class="tc fr mls">
+						<img class="hm" src="img/eniac.jpg" />
+					</div>
+					<p>The ideas presented in the Analytical Engine were developed in a physical machine only one century later, since computing technology has had a drastic change as a consequence of World War II</p>
+					<p>In 1946, US developed the Electronic Numerical Integrator and Computer (ENIAC), a programmable computer through patch cables and switches - the fixed point in time that generated all modern computers</p>
+				</section>
+
+				<section>
+					<h2>Our take</h2>
+					<p class="fragment">In this course, with <em>computer</em> we mean any information-processing agent (i.e. <span class="fragment highlight-red">a person or a machine</span> acting mechanically if appropriately instructed) that can make calculations and produce some output starting from input</p>
+				</section>
+				
+				<section>
+					<h2>Meaning: part 2</h2>
+					<p>Computational Thinking and <span class="fragment highlight-red">Programming</span></p>
+					<p class="fragment">The word <em>programming</em> stands for <em>programming <span class="fragment highlight-red">language</span></em></p>
+					<p class="fragment">Natural language vs Programming language</p>
+				</section>
+
+				<section>
+					<h2>Natural language</h2>
+					<p>An ordinary language (e.g. English), either written or oral, that has evolved naturally in humans, usually without a specific and premeditated planning</p>
+					<p>Usually, natural languages are very expressive but intrinsically ambiguous</p>
+					<div class="fragment">
+						<p class="sst tr wm fr">by Groucho Marx, a line from a <a href="https://www.youtube.com/watch?v=NfN_gcjGoJo">memorable joke</a></p>
+						<blockquote class="wl fl st"><p>One morning I shot an elephant in my pajamas</p></blockquote>
+					</div>
+				</section>
+				
+				<section>
+					<h2>Programming language</h2>
+					<p>A formal-born language, defined using Chomsky's context-free languages, usually</p>
+					<p>They oblige to specific syntactic rules that avoid possible ambiguous statements, mainly by restricting the expressiveness of the language</p>
+					<p>All the sentences in such language are conveying just one possible meaning</p>
+				</section>
+
+				<section>
+					<h2>Kinds of languages 1/2</h2>
+					<div class="wm fl tc mrs">
+						<p class="tc">Machine language</p>
+						<pre><code class="sst">100010110101010000100100000010001000001111111010000000000111011100000110101110000000000000000000000000000000000011000011100000111111101000000010011101110000011010111000000000010000000000000000000000001100001101010011101110110000000100000000000000000000000010111001000000010000000000000000000000001000110100000100000110011000001111111010000000110111011000000111100010111101100110001001110000010100101011101011111100010101101111000011</code></pre>
+					</div>
+					<div class="fragment wl tc fr mls">
+						<p class="tc">Low-level programming language</p>
+						<pre class="wsss fl"><code class="sst">fib:
+    mov edx, [esp+8]
+    cmp edx, 0
+    ja @f
+    mov eax, 0
+    ret
+    
+    @@:
+    cmp edx, 2
+    ja @f
+    mov eax, 1
+    ret
+    
+    @@:
+    push ebx
+    mov ebx, 1
+    mov ecx, 1</code></pre>
+    
+    <pre class="wsss fr"><code class="sst">    @@:
+        lea eax, [ebx+ecx]
+        cmp edx, 3
+        jbe @f
+        mov ebx, ecx
+        mov ecx, eax
+        dec edx
+    jmp @b
+    
+    @@:
+    pop ebx
+    ret</code></pre>
+					<div>
+				</section>
+				
+				<section>
+					<h2>Kinds of languages 2/2</h2>
+					<div class="wmmm fl tc">
+						<p class="tc">High-level programming language</p>
+						<pre><code class="sst">unsigned int fib(unsigned int n) {
+    if (n <= 0) return 0;
+    else if (n <= 2) return 1;
+    else {
+        unsigned int a,b,c;
+        a = 1;
+        b = 1;
+        while (1) {
+            c = a + b;
+            if (n <= 3) return c;
+            a = b;
+            b = c;
+            n--;
+        }
+    }
+}</code></pre>
+					</div>
+					<div class="fragment wmx tc fr">
+						<p class="tc">Natural language</p>
+						<pre><span class="sst">The function for calculating the nth Fibonacci number takes as input an integer “n”. If “n” is less than or equal to 0, then 0 is returned as a result. Otherwise, if “n” is less than or equal to 2, then 1 is returned. Otherwise, in all the other cases, associate the value “1” to two distinct variables “a” and “b”. Then, repeat the following operations indefinitely. Set the variable “c” as the sum of “a” plus “b”. If “n” is less than or equal to “3” then return “c”, otherwise assign the value of “b” to “a” and the value of “c” to “b”, and finally decrease the value of “n” by 1 before repeating.</span></pre>
+					<div>
+				</section>
+				
+				<section>
+					<h2>Meaning: part 3</h2>
+					<p>Computational <span class="fragment highlight-red">Thinking</span> and Programming</p>
+					<p class="fragment">To think (definition, Oxford Dictionary): use one's mind actively to form connected ideas</p>
+					<p class="fragment">Addressed in the previous lecture! Some lesson learnt:</p>
+					<ul class="fragment">
+						<li><p>Leaving out unneeded material</p></li>
+						<li><p>Trial-and-error prodedure may be effective</p></li>
+						<li><p>Recognising similarity of a problem to one already solved makes the problem easier to solve</p></li>
+						<li><p>Use of patterns provided by experience is the most rapid way of solving problems</p></li>
+					</ul>
+					
+				</section>
+
+				<section>
+					<h2>Human-computer communication</h2>
+					<p>Writing a program: communicating to a computer in a (formal) language that such a computer and the <span class="fragment highlight-red">human instructor</span> can both understand</p>
+					<p class="fragment">What we need:</p>
+					<ol class="fragment">
+						<li><p>agree on which language to use for the communication between us and a computer (either human or machine)</p></li>
+						<li class="fragment"><p>think about possible instructions that, if followed systematically by the computer, can enable it to return the expected result to a certain problem</p></li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>What are they?</h2>
+					<p class="tc"><img class="hm" src="img/alice-book-it.jpg" /> <img class="hm" src="img/alice-book-en.png" /></p>
+					<p class="fragment st">Two <span class="fragment highlight-red">object</span>s, each <span class="fragment highlight-red">composed by</span> a stack of usually rectangular <span class="fragment highlight-red">pages</span> (346 and 288 respectively) made of paper oriented with one edge fixed together and then bound to the flexible spine of a protective cover of heavier material, <span class="fragment highlight-red">containing a text</span> written by someone (Lewis Carroll) in a natural language (Italian and English respectively)</p>
+				</section>
+				
+				<section>
+					<h2>Abstraction is the key</h2>
+					<p>The process of leaving out of consideration one or more properties of a complex object or situation by extracting common features from specific examples</p>
+					<p class="fragment tc"><img class="hm" src="img/children.png" /> <img class="hm" src="img/post_office.png" /></p>
+				</section>
+				
+				<section>
+					<h2>What is Computational Thinking</h2>
+					<p>An approach for solving problems, designing systems and understanding human behaviour that draws on concepts fundamental to computing</p>
+					<p class="fragment">Reshape the abstractions we have ingested as consequence of our life experiences – that we are unconsciously reusing</p>
+					<p class="fragment">Being again fully conscious of such abstractions, we can use an appropriate language for making them understandable to a computer, in order to automatise them</p>
+					<p class="fragment">Final goal of Computational Thinking: to complement the other thinking strategies one has already learnt in the past with another tool to describe reality</p>
+				</section>
+				
+				<section class="title_slide">
+					<h2>
+						END
+						<span class="subtitle">Introduction to Computational Thinking</span>
+					</h2>
+					<div class="author">
+						<p><a href="https://www.unibo.it/sitoweb/silvio.peroni/en">Silvio Peroni</a></p>
+						<p class="contact">
+							<i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:silvio.peroni@unibo.it">silvio.peroni@unibo.it</a>
+							<i class="ai ai-orcid" aria-hidden="true"></i> <a href="https://orcid.org/0000-0003-0530-4305">0000-0003-0530-4305</a>
+							<i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/essepuntato">@essepuntato</a>
+						</p>
+						<p class="sst mtl"><a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/467045">Computational Thinking and Programming (A.Y. 2022/2023)</a></p>
+						<p class="ssst"><a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge">Second Cycle Degree in Digital Humanities and Digital Knowledge</a></p>
+						<p class="ssst"><a href="http://www.unibo.it/en">Alma Mater Studiorum - Università di Bologna</a></p>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
