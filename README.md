@@ -31,9 +31,12 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
    - book chapter: [PDF](https://comp-think.github.io/book/01.pdf), [Google Docs](https://comp-think.github.io/book/01)
    - slides: [HTML](https://comp-think.github.io/2022-2023/slides/01%20-%20Introduction%20to%20Computational%20Thinking.html)
    - exercises: [1](https://github.com/comp-think/2022-2023/issues/1), [2](https://github.com/comp-think/2022-2023/issues/2), [3](https://github.com/comp-think/2022-2023/issues/3)
+   - solutions: [1](https://comp-think.github.io/keys/01/exercise-1), [2](https://comp-think.github.io/keys/01/exercise-2), [3](https://comp-think.github.io/keys/01/exercise-3)
    <hr />
 3. [17/10/22, *the*] Algorithms
    - book chapter: [PDF](https://comp-think.github.io/book/02.pdf), [Google Docs](https://comp-think.github.io/book/02)
+   - slides: [HTML](https://comp-think.github.io/2022-2023/slides/02%20-%20Algorithms.html)
+   - exercises: [1](https://github.com/comp-think/2022-2023/issues/4), [2](https://github.com/comp-think/2022-2023/issues/5), [3](https://github.com/comp-think/2022-2023/issues/6)
    <hr />
 4. [19/10/22, *lab*] 1st Lesson
    - book chapter: [HTML](https://comp-think.github.io/laboratory/chapter/01)
