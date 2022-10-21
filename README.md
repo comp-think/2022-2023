@@ -44,7 +44,7 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
    <hr />
 5. [21/10/22, *the*] Computability
    - book chapter: [PDF](https://comp-think.github.io/book/03.pdf), [Google Docs](https://comp-think.github.io/book/03)
-   - slides: [HTML](https://comp-think.github.io/2021-2022/slides/03%20-%20Computability.html)
+   - slides: [HTML](https://comp-think.github.io/2022-2023/slides/03%20-%20Computability.html)
    - exercises: [1](https://github.com/comp-think/2022-2023/issues/7), [2](https://github.com/comp-think/2022-2023/issues/8), [3](https://github.com/comp-think/2022-2023/issues/9)
    <hr />
 6. [24/10/22, *the*] Programming languages
