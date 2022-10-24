@@ -46,9 +46,11 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
    - book chapter: [PDF](https://comp-think.github.io/book/03.pdf), [Google Docs](https://comp-think.github.io/book/03)
    - slides: [HTML](https://comp-think.github.io/2022-2023/slides/03%20-%20Computability.html)
    - exercises: [1](https://github.com/comp-think/2022-2023/issues/7), [2](https://github.com/comp-think/2022-2023/issues/8), [3](https://github.com/comp-think/2022-2023/issues/9)
+   - solutions: [1](https://comp-think.github.io/keys/03/exercise-1), [2](https://comp-think.github.io/keys/03/exercise-2), [3](https://comp-think.github.io/keys/03/exercise-3)
    <hr />
 6. [24/10/22, *the*] Programming languages
    - book chapter: [PDF](https://comp-think.github.io/book/04.pdf), [Google Docs](https://comp-think.github.io/book/04)
+   - slides: [HTML](https://comp-think.github.io/2022-2023/slides/04%20-%20Programming%20languages.html)
    - from [How To Code in Python](https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python):
      - Chapter "Understanding Data Types": introductory paragraphs and sections "Background", "Numbers", "Floating-Point Numbers", "Booleans", "Strings"
      - Chapter "How To Use Variables": introductory paragraphs and sections "Understadning Variables", "Naming Variables: Rules and Style", "Reassigning Variables", "Multiple Assignment"
@@ -56,6 +58,7 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
      - Chapter "How To Write Conditional Statements": all content
      - Chapter "How To Define Functions": introductory paragraphs and sections "Defining a Function", "Working with Parameters", "Returning a Value"
    - Python: [first_algorithm_empty.py](https://comp-think.github.io/python/first_algorithm_empty.py), [first_algorithm_no_assignments.py](https://comp-think.github.io/python/first_algorithm_no_assignments.py), [first_algorithm.py](https://comp-think.github.io/python/first_algorithm.py)
+   - exercises: [1](https://github.com/comp-think/2022-2023/issues/10), [2](https://github.com/comp-think/2022-2023/issues/11), [3](https://github.com/comp-think/2022-2023/issues/12)
    <hr />
 7. [26/10/22, *lab*] 2nd Lesson
    - book chapter: [HTML](https://comp-think.github.io/laboratory/chapter/02)
@@ -70,7 +73,7 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
      - Chapter "How To Use List Methods": introductory paragraphs and sections "list.append()", "list.extend()", "list.remove()"
    - Python: [define_functions.py](https://comp-think.github.io/python/define_functions.py), [list_instructions.py](https://comp-think.github.io/python/list_instructions.py), [stack_instructions.py](https://comp-think.github.io/python/stack_instructions.py), [queue_instructions.py](https://comp-think.github.io/python/queue_instructions.py)
    <hr />
-9. [07/11/22, *the*] Brute-force algorithms
+9. [09/11/22, *the*] Brute-force algorithms
    - book chapter: [PDF](https://comp-think.github.io/book/06.pdf), [Google Docs](https://comp-think.github.io/book/06)
    - from [How To Code in Python](https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python):
      - Chapter "How To Construct While Loops": all content
@@ -80,7 +83,7 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
      - Chapter "How To Use List Methods": section "list.insert()"
    - Python: [stack_from_list.py](https://comp-think.github.io/python/stack_from_list.py), [run_forever.py](https://comp-think.github.io/python/run_forever.py), [linear_search.py](https://comp-think.github.io/python/linear_search.py), [insertion_sort.py](https://comp-think.github.io/python/insertion_sort.py)
    <hr />
-10. [09/11/22, *lab*] 3rd Lesson
+10. [11/11/22, *lab*] 3rd Lesson
     - book chapter: [HTML](https://comp-think.github.io/laboratory/chapter/03)
     <hr />
 11. [14/11/22, *the*] Organising information: unordered structures
@@ -140,8 +143,8 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
   <tr><td>24/10/22</td><td>09:30-11:30</td><td>Programming languages</td></tr>
   <tr><td>26/10/22</td><td>09:30-11:30</td><td>2nd Lesson</td></tr>
   <tr><td>28/10/22</td><td>12:30-14:30</td><td>Organising information: ordered structures</td></tr>
-  <tr><td>07/11/22</td><td>09:30-11:30</td><td>Brute-force algorithms</td></tr>
-  <tr><td>09/11/22</td><td>09:30-11:30</td><td>3rd Lesson</td></tr>
+  <tr><td>09/11/22</td><td>09:30-11:30</td><td>Brute-force algorithms</td></tr>
+  <tr><td>11/11/22</td><td>12:30-14:30</td><td>3rd Lesson</td></tr>
   <tr><td>14/11/22</td><td>09:30-11:30</td><td>Organising information: unordered structures</td></tr>
   <tr><td>16/11/22</td><td>09:30-11:30</td><td>4th Lesson</td></tr>
   <tr><td>21/11/22</td><td>09:30-11:30</td><td>Recursion</td></tr>
