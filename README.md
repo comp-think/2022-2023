@@ -87,7 +87,7 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
      - Chapter "Understanding Lists": section "Constructing a List with List Items"
      - Chapter "How To Use List Methods": section "list.insert()"
    - Python: [stack_from_list.py](https://comp-think.github.io/python/stack_from_list.py), [run_forever.py](https://comp-think.github.io/python/run_forever.py), [linear_search.py](https://comp-think.github.io/python/linear_search.py), [insertion_sort.py](https://comp-think.github.io/python/insertion_sort.py)
-   - exercises: [1](https://github.com/comp-think/2022-2023/issues/16), [2](https://github.com/comp-think/2022-2023/issues/17), [3](https://github.com/comp-think/2022-2023/issues/18), [4](https://github.com/comp-think/2022-2023/issues/19), [5](https://github.com/comp-think/2022-2023/issues/22)
+   - exercises: [1](https://github.com/comp-think/2022-2023/issues/16), [2](https://github.com/comp-think/2022-2023/issues/17), [3](https://github.com/comp-think/2022-2023/issues/18), [4](https://github.com/comp-think/2022-2023/issues/19), [5](https://github.com/comp-think/2022-2023/issues/20)
    <hr />
 10. [11/11/22, *lab*] 3rd Lesson
     - book chapter: [HTML](https://comp-think.github.io/laboratory/chapter/03)
