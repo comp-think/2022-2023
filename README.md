@@ -101,7 +101,7 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
       - Chapter "Understanding Dictionaries": all content
       - Chapter "How To Construct Classes and Define Objects": all content
     - Python: [set_instructions.py](https://comp-think.github.io/python/set_instructions.py), [dictionary_instructions.py](https://comp-think.github.io/python/dictionary_instructions.py)
-    - exercises: [1](https://github.com/comp-think/2021-2022/issues/21), [2](https://github.com/comp-think/2021-2022/issues/22), [3](https://github.com/comp-think/2021-2022/issues/23)
+    - exercises: [1](https://github.com/comp-think/2022-2023/issues/21), [2](https://github.com/comp-think/2022-2023/issues/22), [3](https://github.com/comp-think/2022-2023/issues/23)
     <hr />
 12. [16/11/22, *lab*] 4th Lesson
     - book chapter: [HTML](https://comp-think.github.io/laboratory/chapter/04)
