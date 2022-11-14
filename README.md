@@ -88,17 +88,20 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
      - Chapter "How To Use List Methods": section "list.insert()"
    - Python: [stack_from_list.py](https://comp-think.github.io/python/stack_from_list.py), [run_forever.py](https://comp-think.github.io/python/run_forever.py), [linear_search.py](https://comp-think.github.io/python/linear_search.py), [insertion_sort.py](https://comp-think.github.io/python/insertion_sort.py)
    - exercises: [1](https://github.com/comp-think/2022-2023/issues/16), [2](https://github.com/comp-think/2022-2023/issues/17), [3](https://github.com/comp-think/2022-2023/issues/18), [4](https://github.com/comp-think/2022-2023/issues/19), [5](https://github.com/comp-think/2022-2023/issues/20)
+   - solutions: [1](https://comp-think.github.io/keys/06/exercise-1), [2](https://comp-think.github.io/keys/06/exercise-2), [3](https://comp-think.github.io/keys/06/exercise-3), [4](https://comp-think.github.io/keys/06/exercise-4), [5](https://comp-think.github.io/keys/06/exercise-5)
    <hr />
 10. [11/11/22, *lab*] 3rd Lesson
     - book chapter: [HTML](https://comp-think.github.io/laboratory/chapter/03)
     <hr />
 11. [14/11/22, *the*] Organising information: unordered structures
     - book chapter: [PDF](https://comp-think.github.io/book/07.pdf), [Google Docs](https://comp-think.github.io/book/07)
+    - slides: [HTML](https://comp-think.github.io/2022-2023/slides/07%20-%20Organising%20information%20-%20unordered%20structures.html)
     - from [How To Code in Python](https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python):
       - Chapter "Understanding Data Types": section "Dictionaries"
       - Chapter "Understanding Dictionaries": all content
       - Chapter "How To Construct Classes and Define Objects": all content
     - Python: [set_instructions.py](https://comp-think.github.io/python/set_instructions.py), [dictionary_instructions.py](https://comp-think.github.io/python/dictionary_instructions.py)
+    - exercises: [1](https://github.com/comp-think/2021-2022/issues/21), [2](https://github.com/comp-think/2021-2022/issues/22), [3](https://github.com/comp-think/2021-2022/issues/23)
     <hr />
 12. [16/11/22, *lab*] 4th Lesson
     - book chapter: [HTML](https://comp-think.github.io/laboratory/chapter/04)
