@@ -109,7 +109,7 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
     <hr />
 13. [21/11/22, *the*] Recursion
     - book chapter: [PDF](https://comp-think.github.io/book/08.pdf), [Google Docs](https://comp-think.github.io/book/08)
-    - slides: [HTML](https://comp-think.github.io/2021-2022/slides/08%20-%20Recursion.html)
+    - slides: [HTML](https://comp-think.github.io/2022-2023/slides/08%20-%20Recursion.html)
     - Python: [run_forever_recursive.py](https://comp-think.github.io/python/run_forever_recursive.py), [multiplication.py](https://comp-think.github.io/python/multiplication.py)
     - exercises: [1](https://github.com/comp-think/2022-2023/issues/24), [2](https://github.com/comp-think/2022-2023/issues/25)
     <hr />
