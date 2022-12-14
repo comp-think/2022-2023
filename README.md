@@ -139,10 +139,13 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
     - slides: [HTML](https://comp-think.github.io/2022-2023/slides/11%20-%20Organising%20information%20-%20trees.html)
     - Python: [tree_instructions.py](https://comp-think.github.io/python/tree_instructions.py)
     - exercises: [1](https://github.com/comp-think/2022-2023/issues/31), [2](https://github.com/comp-think/2022-2023/issues/32)
+    - solutions: [1](https://comp-think.github.io/keys/11/exercise-1), [2](https://comp-think.github.io/keys/11/exercise-2)
     <hr />
 19. [14/12/22, *the*] Backtracking algorithms
     - book chapter: [PDF](https://comp-think.github.io/book/12.pdf), [Google Docs](https://comp-think.github.io/book/12)
+    - slides: [HTML](https://comp-think.github.io/2022-2023/slides/12%20-%20Backtracking%20algorithms.html)
     - Python: [peg_solitaire.py](https://comp-think.github.io/python/peg_solitaire.py)
+    - exercises: [1](https://github.com/comp-think/2022-2023/issues/33), [2](https://github.com/comp-think/2022-2023/issues/34)
     <hr />
 20. [19/12/22, *the*] Organising information: graphs
     - book chapter: [PDF](https://comp-think.github.io/book/13.pdf), [Google Docs](https://comp-think.github.io/book/13)
