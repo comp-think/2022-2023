@@ -1,0 +1,7 @@
+the_master.py
+__pycache__/
+00_*.py
+rooms/
+support/
+submissions/
+boards/
