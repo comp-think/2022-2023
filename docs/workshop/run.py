@@ -10,7 +10,7 @@ board = [
                 {
                     "x": 1,
                     "y": 0,
-                    "type": "rock"
+                    "type": "free"
                 },
                 {
                     "x": 2,
@@ -32,7 +32,7 @@ board = [
                 {
                     "x": 1,
                     "y": 1,
-                    "type": "free"
+                    "type": "rock"
                 },
                 {
                     "x": 2,
