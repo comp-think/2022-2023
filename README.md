@@ -159,7 +159,8 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
     - book chapter: [PDF](https://comp-think.github.io/book/14.pdf), [Google Docs](https://comp-think.github.io/book/14)
     - slides: [HTML](https://comp-think.github.io/2022-2023/slides/14%20-%20Greedy%20algorithms.html)
     - Python: [line_wrap.py](https://comp-think.github.io/python/line_wrap.py)
-    - exercises: [1](https://github.com/comp-think/2021-2022/issues/37), [2](https://github.com/comp-think/2021-2022/issues/38)
+    - exercises: [1](https://github.com/comp-think/2022-2023/issues/37), [2](https://github.com/comp-think/2022-2023/issues/38)
+    - solutions: [1](https://comp-think.github.io/keys/14/exercise-1), [2](https://comp-think.github.io/keys/14/exercise-2)
 
 ### Schedule
 
