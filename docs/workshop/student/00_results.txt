@@ -1,0 +1,533 @@
+
+
+## Room 1 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+
+## Room 2 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 3
+
+## Room 3 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 2
+
+## Room 4 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 62
+
+## Room 5 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 3
+
+## Room 6 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 7 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 9
+
+## Room 8 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 89
+
+## Room 9 ##
+FINAL RANKS
+
+## Room 10 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 11 ##
+FINAL RANKS
+
+## Room 12 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 12
+
+## Room 13 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 7
+
+## Room 14 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 18
+
+## Room 15 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 3
+
+## Room 16 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 5
+
+## Room 17 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 18 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 19 ##
+FINAL RANKS
+
+## Room 20 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 4
+Rank 2
+	thethreemices at turn 8
+
+## Room 21 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 3
+
+## Room 22 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 23 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 28
+
+## Room 24 ##
+FINAL RANKS
+
+## Room 25 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 3
+
+## Room 26 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 43
+
+## Room 27 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 28 ##
+FINAL RANKS
+
+## Room 29 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 2
+Rank 2
+	thethreemices at turn 7
+
+## Room 30 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 4
+Rank 2
+	thethreemices at turn 40
+
+## Room 31 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 3
+Rank 2
+	thethreemices at turn 6
+
+## Room 32 ##
+FINAL RANKS
+
+## Room 33 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 2
+
+## Room 34 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 2
+
+## Room 35 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 12
+
+## Room 36 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 45
+
+## Room 37 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 2
+Rank 2
+	thethreemices at turn 4
+
+## Room 38 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 3
+Rank 2
+	thethreemices at turn 58
+
+## Room 39 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 81
+
+## Room 40 ##
+FINAL RANKS
+
+## Room 41 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 2
+
+## Room 42 ##
+FINAL RANKS
+
+## Room 43 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 2
+
+## Room 44 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 45 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 7
+
+## Room 46 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 21
+
+## Room 47 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 4
+
+## Room 48 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 211
+
+## Room 49 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 7
+
+## Room 50 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 3
+
+## Room 51 ##
+FINAL RANKS
+
+## Room 52 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 2
+Rank 2
+	thethreemices at turn 32
+
+## Room 53 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 2
+
+## Room 54 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 4
+
+## Room 55 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 8
+
+## Room 56 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 2
+Rank 2
+	thethreemices at turn 17
+
+## Room 57 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 58 ##
+FINAL RANKS
+
+## Room 59 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 77
+
+## Room 60 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 61 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 62 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 2
+
+## Room 63 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 4
+
+## Room 64 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 60
+
+## Room 65 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 11
+
+## Room 66 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 2
+
+## Room 67 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 2
+
+## Room 68 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 69 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 70 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 5
+Rank 2
+	thethreemices at turn 50
+
+## Room 71 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 72 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 42
+
+## Room 73 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 74 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 4
+
+## Room 75 ##
+FINAL RANKS
+
+## Room 76 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 77 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 3
+
+## Room 78 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 79 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 5
+Rank 2
+	thethreemices at turn 59
+
+## Room 80 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 79
+
+## Room 81 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 2
+
+## Room 82 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 14
+
+## Room 83 ##
+FINAL RANKS
+
+## Room 84 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 54
+
+## Room 85 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 86 ##
+FINAL RANKS
+
+## Room 87 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 2
+Rank 2
+	thethreemices at turn 11
+
+## Room 88 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 4
+
+## Room 89 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 2
+
+## Room 90 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 1
+Rank 2
+	thethreemices at turn 2
+
+## Room 91 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 11
+
+## Room 92 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 108
+
+## Room 93 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 94 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 6
+
+## Room 95 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 36
+
+## Room 96 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 181
+
+## Room 97 ##
+FINAL RANKS
+Rank 1
+	thethreemices at turn 16
+
+## Room 98 ##
+FINAL RANKS
+Rank 1
+	codeflakes, thethreemices at turn 1
+
+## Room 99 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 4
+
+## Room 100 ##
+FINAL RANKS
+Rank 1
+	codeflakes at turn 9
+
+## FINAL RESULTS ##
+Avoiding non-permitted moves: thethreemices
+Find exit of at least 30 boards: codeflakes thethreemices
+Find exit of at least 90 boards: 
+Best winner: codeflakes

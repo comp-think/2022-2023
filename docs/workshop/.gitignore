@@ -1,5 +1,3 @@
 __pycache__/
-00_results.txt
 student/*.py
 student/*.xlsx
-student/__pycache__/
