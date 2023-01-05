@@ -1,8 +1,5 @@
-the_master.py
 __pycache__/
-00_*.py
-rooms/
-support/
-submissions/
-boards/
-student/
+00_results.txt
+student/*.py
+student/*.xlsx
+student/__pycache__/

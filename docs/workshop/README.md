@@ -20,16 +20,18 @@ Thus we are all here, drinking our beverages at the World End’s Inn, a flouris
 
 ## Rules
 
-1. The board is a square which is initially filled with an arbitrary number of rocks / bishops
+(Editorial note: there was a typo in the name of one of the pieces, i.e. the rook, that was erroneusly written as "rock" in the original text and code. The text here has been updated accordingly.)
+
+1. The board is a square which is initially filled with an arbitrary number of rooks / bishops
 1. The player controls the queen, initially positioned in the start cell
 1. The board is cracked and, thus, all pieces in the board can move only of one cell per turn, according to their possible movements (see previous slide)
-1. The rocks and bishops do not move unless they can capture the queen
+1. The rooks and bishops do not move unless they can capture the queen
 1. The queen must always move to a close cell in each turn
 1. The queen cannot capture any piece and cannot move on a cell already occupied
 1. The goal of the player is to move the queen, turn after turn, to reach the exit cell
 1. The queen is captured (i.e. the player lose the game) if 
    * the queen do not move
-   * the queen moves to a place which is not an adjacent cell, a cell that is controlled by a bishop/rock, and a cell which is not contained in the board
+   * the queen moves to a place which is not an adjacent cell, a cell that is controlled by a bishop/rook, and a cell which is not contained in the board
    * the queen does not reach the exit within a maximum number of turns that depends on the dimension of the board (4 turns in a 2x2 square, 9 in a 3x3, 14 in a 4x4, etc.)
 
 
@@ -69,3 +71,27 @@ To test the implementation of `do_move`, run:
 ```
 python run.py
 ```
+
+## Final results
+All the functions implemented by each group (that submitted a syntactical-correct Python code - i.e. "It runs, it runs!") were used to run the main Python script [*Cracked Chess*](https://comp-think.github.io/2022-2023/workshop/00_run_cracked_chess.py) with all the groups' implementation. It used [100 different boards](https://github.com/comp-think/2022-2023/tree/main/docs/workshop/boards) that have been generated randomly running [create_board.py](https://comp-think.github.io/2022-2023/workshop/support/create_board.py).
+
+The [final results](https://comp-think.github.io/2022-2023/workshop/student/00_results.txt) of this execution are summarised as follows:
+
+* Groups that returned always permitted moves: *The Three Mice*
+* Groups that found the exit of at least 30 mazes: *The Three Mice*, *Codeflakes*
+* Groups that found the exit of at least 90 mazes: none of the participants
+* Groups that won the greatest number of mazes: *Codeflakes*
+
+Concluding:
+* *The Three Mice* members and *Codeflakes* members receive 2 points
+* Members of all the other groups receive 0 points
+
+In case one group want to test its code with the code used for the evaluation (i.e. [`00_run_cracked_chess.py`](https://comp-think.github.io/2022-2023/workshop/00_run_cracked_chess.py)), it is necessary:
+
+* to clone the current directory dedicated to the workshop;
+* to copy the file containing the group code in the same directory of `00_run_cracked_chess.py`;
+* to import the group file as usual (i.e. `import <group_file_name_without_extension>`);
+* to substitute `the_master` with the name of the imported file in the list `all_players`;
+* to run the code with `python 00_run_cracked_chess.py`.
+
+In case it is needed, the file [`the_master.py`](https://comp-think.github.io/2022-2023/workshop/the_master.py) provides a possible implementation of a player. It is worth noticiing that such an implementation do not use backtracking (even if there are possible implementations that use it, of course), but is based on a well-known algorithm (implemented in NetworkX) for finding the [shortest path](https://en.wikipedia.org/wiki/Shortest_path_problem) between two nodes of a graph. Here the trick was to abstract the board as a graph of connected cells that are neigher occupied or controlled by bishops and rooks.
